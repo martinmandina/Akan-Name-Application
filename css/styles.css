@@ -2,3 +2,11 @@
   color: blue;
   text-align: center;
 }
+.paragraph {
+  color: red;
+}
+img {
+  float: left;
+  width: 400px;
+  height: 250px;
+}
