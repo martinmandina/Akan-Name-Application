@@ -12,7 +12,7 @@ var male_names = {0:"Kwasi",1:"Kwadwo",2:"Kwabena",3:"Kwaku",4:"Yaw",5:"Kofi",6:
 
 var dob=new Date("May,5, 2020");
 var normal_day = dob.getDay();
-var theday=normal_day; // we have ammended get day+1 to offset weekstart date
+var theday=normal_day; 
 document.write("today is : "+theday);
 
 }
