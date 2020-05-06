@@ -13,7 +13,7 @@
 current_date = new Date()
 cday = current_date.getDay()
 document.write("The day of the week of current date is : "+cday)
-//document.write("The day is : "+document.getElementById("DD").value);
+//document.write("The day is : "+document.getElementById('DD').value);
 //]]>
 </script>
   </head>
@@ -50,6 +50,8 @@ document.write("The day of the week of current date is : "+cday)
      <div class="result">
        <script type="text/javascript">
 //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
+const queryString = window.location.search;
+console.log(queryString);
 
 var female_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5:"Afua",6:"Ama"};
 var male_names = {0:"Kwasi",1:"Kwadwo",2:"Kwabena",3:"Kwaku",4:"Yaw",5:"Kofi",6:"Kwame"};
@@ -57,7 +59,7 @@ var male_names = {0:"Kwasi",1:"Kwadwo",2:"Kwabena",3:"Kwaku",4:"Yaw",5:"Kofi",6:
 
 var dob=new Date("May,5, 2020");
 var normal_day = dob.getDay();
-var theday=normal_day+1; // we have ammended get day+1 to offset weekstart date
+var theday=normal_day; // we have ammended get day+1 to offset weekstart date
 document.write("today is : "+theday);
 var akan_name=female_names[normal_day];
 document.write("<br>Your AKAN name is : "+akan_name);
