@@ -1,18 +1,15 @@
-/*.current {
+.current {
   color: blue;
-  text-align: right;
+  text-align: left;
   font-size: 20px;
 }
 .paragraph {
   color: blue;
   font-size: 20px;
   width: 40%;
-  float: right;
   background-color: yellow;
 }
 #mylogo {
-  float: left;
   width: 500px;
-  height: 300px;
+  height: 200px;
 }
-*/
