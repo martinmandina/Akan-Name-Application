@@ -51,15 +51,16 @@ document.write("The day of the week of current date is : "+cday)
        <script type="text/javascript">
 //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
 
-var female_names = {1:"Akosua",2:"Adwoa",3:"Abenaa",4:"Akua",5:"Yaa",6: "Afua",7:"Ama"};
-var male_names = {1:"Kwasi",2:"Kwadwo",2:"Kwabena",4:"Kwaku",5:"Yaw",6:"Kofi",7:Kwame"};
+var female_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5:"Afua",6:"Ama"};
+var male_names = {0:"Kwasi",1:"Kwadwo",2:"Kwabena",3:"Kwaku",4:"Yaw",5:"Kofi",6:"Kwame"};
 
 
 //female[2];
-var dob=new Date("January,1, 2008");
+var dob=new Date("May,5, 2020");
 var normal_day = dob.getDay();
+document.write("today is : "+normal_day);
 var akan_name=female_names[2];
-document.write("Your AKAN name is : "+akan_name);
+document.write("<br>Your AKAN name is : "+akan_name);
 //]]>
 </script>
      </div>
