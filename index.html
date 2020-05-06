@@ -15,19 +15,20 @@
       a person was born by using the Akan naming system</p>
      </div>
      <div class="userdata">
-       <form>
+       <form action="martin.php" method="get">
         <table>
         <tr class="enteryourbirth">
           <br>Enter Your Birth;
-          <input type="text" id="DD" size="2" maxlength="2"> &nbsp;
-          <input type="text" id="MM" size="2" maxlength="2"> &nbsp;
+          <input type="text" id="DD" name="DD" size="2" maxlength="2"> &nbsp;
+          <input type="text" id="MM" name="MM" size="2" maxlength="2"> &nbsp;
           <input type="text" id="YY" size="4" maxlength="4">
           <br>Select Your Gender;
           <select>
             <option>Male</option>
             <option>Female</option>
           </select>
-          <br><br><input type=submit>
+          <br><br><input type="Submit" value="sendform"> &nbsp;
+          <input type="Reset" value="clearform">
 
         </tr>
         </table>
