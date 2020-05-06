@@ -7,10 +7,14 @@ body { background-color: #Feffca; }
 .paragraph {
   color: blue;
   font-size: 20px;
-  width: 40%;
+  width: 500px;
   background-color: yellow;
 }
 #mylogo {
   width: 500px;
   height: 200px;
+}
+.fence {
+  width: 470px;
+
 }

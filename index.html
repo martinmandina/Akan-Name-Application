@@ -3,12 +3,14 @@
   <head>
     <title>AKAN NAME APP</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./js/scripts.js">var theday = document.getElementById("DD").value;
-    window.alert("the day is"+theday);</script>
+    <script type="text/javascript" src="./js/scripts.js">
+    </script>
     <script type="text/javascript">
     current_date = new Date()
     cday = current_date.getDay()
-   document.write("The day of the week of current date is : "+cday)
+   document.write("The day of the week of current date is : "+cday);
+   var theday = document.getElementById("DD").value;
+   window.alert("the day is"+theday);
   </script>
   </head>
   <body>
@@ -23,9 +25,12 @@
      </div>
      <div class="userdata">
        <form action="" method="get">
+
+  <fieldset class="fence" >
+    <legend>provide your birthdate and gender</legend>
         <table>
         <tr class="enteryourbirth">
-          <br>Enter Your Birth;
+          <br>Enter Your date of birth;
           <input type="text" id="DD" name="DD" size="2" maxlength="2" value="12"> &nbsp;
           <input type="text" id="MM" name="MM" size="2" maxlength="2"> &nbsp;
           <input type="text" id="YY" name="YY" size="4" maxlength="4">
@@ -38,6 +43,7 @@
           <input type="Reset" value="clearform">
          </tr>
         </table>
+        </fieldset>
        </form>
      </div>
      <div class="result">
