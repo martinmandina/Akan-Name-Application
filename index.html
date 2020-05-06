@@ -3,7 +3,19 @@
   <head>
     <title>AKAN NAME APP</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="./js/scripts.js"></script>
+    <script type="text/javascript" src="./js/scripts.js">var theday = document.getElementById("DD").value;
+    window.alert("the day is"+theday);</script>
+    <script type="text/javascript">
+//This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
+newyear2008 = new Date("January 1, 2008 11:10:00")
+day = newyear2008.getDay()
+document.write("The day of the week of "+newyear2008+" is : "+day+"<br />")
+current_date = new Date()
+cday = current_date.getDay()
+document.write("The day of the week of current date is : "+cday)
+document.write("The day is : "+document.getElementById("DD").value;)
+//]]>
+</script>
   </head>
   <body>
     <div id="content">
@@ -20,7 +32,7 @@
         <table>
         <tr class="enteryourbirth">
           <br>Enter Your Birth;
-          <input type="text" id="DD" name="DD" size="2" maxlength="2"> &nbsp;
+          <input type="text" id="DD" name="DD" size="2" maxlength="2" value="12"> &nbsp;
           <input type="text" id="MM" name="MM" size="2" maxlength="2"> &nbsp;
           <input type="text" id="YY" name="YY" size="4" maxlength="4">
           <br>Select Your Gender;
@@ -36,6 +48,20 @@
        </form>
      </div>
      <div class="result">
+       <script type="text/javascript">
+//This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
+
+var female_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5: "Afua",6:"Ama"};
+var male_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5: "Afua",6:"Ama"};
+//newyear2008 = new Date("January 1, 2008 11:10:00")
+newyear2008 =new Date("January,1, 2008");
+//female[2];
+
+cday = newyear2008.getDay();
+var akan_name=female_names[2];
+document.write("Your AKAN name is : "+akan_name);
+//]]>
+</script>
      </div>
    <div>
    </div>
