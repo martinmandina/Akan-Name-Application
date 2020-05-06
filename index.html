@@ -7,13 +7,13 @@
     window.alert("the day is"+theday);</script>
     <script type="text/javascript">
 //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
-newyear2008 = new Date("January 1, 2008 11:10:00")
-day = newyear2008.getDay()
-document.write("The day of the week of "+newyear2008+" is : "+day+"<br />")
+//newyear2008 = new Date("January 1, 2008 11:10:00")
+//day = newyear2008.getDay()
+//document.write("The day of the week of "+newyear2008+" is : "+day+"<br />")
 current_date = new Date()
 cday = current_date.getDay()
 document.write("The day of the week of current date is : "+cday)
-document.write("The day is : "+document.getElementById("DD").value;)
+//document.write("The day is : "+document.getElementById("DD").value);
 //]]>
 </script>
   </head>
@@ -51,13 +51,13 @@ document.write("The day is : "+document.getElementById("DD").value;)
        <script type="text/javascript">
 //This is done to make the following JavaScript code compatible to XHTML. <![CDATA[
 
-var female_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5: "Afua",6:"Ama"};
-var male_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5: "Afua",6:"Ama"};
-//newyear2008 = new Date("January 1, 2008 11:10:00")
-newyear2008 =new Date("January,1, 2008");
-//female[2];
+var female_names = {1:"Akosua",2:"Adwoa",3:"Abenaa",4:"Akua",5:"Yaa",6: "Afua",7:"Ama"};
+var male_names = {1:"Kwasi",2:"Kwadwo",2:"Kwabena",4:"Kwaku",5:"Yaw",6:"Kofi",7:Kwame"};
 
-cday = newyear2008.getDay();
+
+//female[2];
+var dob=new Date("January,1, 2008");
+var normal_day = dob.getDay();
 var akan_name=female_names[2];
 document.write("Your AKAN name is : "+akan_name);
 //]]>
