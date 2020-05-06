@@ -2,7 +2,7 @@
 ## Description
 This is an application that ,gives the AKAN name for a users birthday this is from a westafrican cultural practice where the child is named according to the day of birth and gender.
 ## AUTHOR:
-Martin Mandina
+Martin Sila Mandina
 ## BDD
 events include setting the akan name based on gender selected and the day of birth from the users entered birthdate.
 ##TECHNOLOGIES
