@@ -6,7 +6,10 @@ Martin Sila Mandina
 ## BDD
 events include setting the akan name based on gender selected and the day of birth from the users entered birthdate.
 ## TECHNOLOGIES
-the technologies used include pure css, pure javascript, and HTML5
+### Bootstrap
+### css
+### javascript
+### HTML5
 ## CONTACT INFORMATION
 Martin Sila Mandina
 P.O. Box 70055 - 00400 Nairobi, Kenya
