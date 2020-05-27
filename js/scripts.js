@@ -32,4 +32,4 @@ var theday=normal_day;
 document.write("today is : "+theday);
 
 
-var akan_name=female_names[normal_day];
+var akan_name=female_names[normal_day]
