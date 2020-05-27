@@ -19,3 +19,9 @@ function female(month, day, year) {
    return mons[month-1] + ' ' + day + ', ' + year +
       ' = ' + days[siku(month, day, year)];
 }
+function doFemale() {
+   var m = parseInt(document.getElementById('month').value);
+   var d = parseInt(document.getElementById('day').value);
+   var y = parseInt(document.getElementById('year').value);
+   document.getElementById('result').innerHTML = female(m,d,y);
+}
