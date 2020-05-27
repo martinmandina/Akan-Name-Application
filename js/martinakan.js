@@ -8,3 +8,14 @@ function siku(month, day, year) {
       parseInt(year / 400) - 1) % 7;
    return h;
 }
+function female(month, day, year) {
+/*  var female_names = {0:"Akosua",1:"Adwoa",2:"Abenaa",3:"Akua",4:"Yaa",5:"Afua",6:"Ama"};*/
+   var mons =
+       ['January','February','March','April','May','June',
+      'July','August','September','October','November','December'];
+   var days =
+      ['Akosua', 'Adwoa', 'Abeena', 'Akua',
+      'Yaa', 'Afua', 'Ama'];
+   return mons[month-1] + ' ' + day + ', ' + year +
+      ' = ' + days[siku(month, day, year)];
+}
